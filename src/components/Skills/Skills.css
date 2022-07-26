@@ -1,0 +1,36 @@
+#skills {
+  display: grid;
+  place-items: center;
+}
+.icons__container {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2.5rem;
+  width: 50%;
+}
+.icon__container {
+  background-color: var(--color-bg-variant);
+  padding: 1.3rem 1.3rem 0 1.3rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+  width: 10rem;
+}
+.icon__container:hover {
+  border-color: var(--color-primary-variant);
+  background: transparent;
+}
+@media screen and (max-width: 1024px) {
+  .icons__container {
+    width: var(--container-width-md);
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .icons__container {
+    width: var(--container-width-sm);
+    gap: 1rem;
+  }
+}
