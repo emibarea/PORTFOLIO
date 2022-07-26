@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import Me from "../../assets/emiFrent.jpeg";
+import Me from "../../assets/imagenEmi.jpeg";
 import Platzi from "../../assets/img3.jpg";
 import FreeCode from "../../assets/freecodecamp.png";
 function About() {

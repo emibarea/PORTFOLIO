@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 import CTA from "./CTA";
-import Me from "../../assets/emiDef.png";
+import Me from "../../assets/emiFa.png";
 import HeadSocials from "./HeadSocials";
 function Header() {
   return (
