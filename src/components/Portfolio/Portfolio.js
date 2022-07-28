@@ -3,6 +3,8 @@ import "./Portfolio.css";
 import Netflix from "../../assets/netflixClone.png";
 import Calculadora from "../../assets/calculadora.png";
 import TICTACTOE from "../../assets/tictactoe.png";
+import Coinbase from "../../assets/coinbase.png";
+import Legos from "../../assets/legos.png";
 const data = [
   {
     name: "Netflix Clone",
@@ -21,6 +23,18 @@ const data = [
     img: TICTACTOE,
     github: "https://github.com/emibarea/TIC-TAC-TOE",
     demo: "https://tic-tac-toe-alpha-gilt.vercel.app/",
+  },
+  {
+    name: "CoinBase Clone",
+    img: Coinbase,
+    github: "https://github.com/emibarea/Coinbase-clone",
+    demo: "https://youtu.be/7oLPRUbBl_Q",
+  },
+  {
+    name: "Static Page Legos",
+    img: Legos,
+    github: "https://github.com/emibarea/LEGOS-HERO",
+    demo: "https://emibarea.github.io/LEGOS-HERO/#",
   },
 ];
 function Portfolio() {
