@@ -48,10 +48,11 @@ function About() {
             Engineering at Universidad Tecnologica Nacional Mendoza since 2020.
             I have also learned on other platforms (Platzi, FreeCodeCamp,
             ArgentinaPrograma) and on my own.
-            <br /> I am a passionate about building amazing websites and a
-            person who never stops learning. I would define myself as a very
-            adaptable , who is capable to work in any sircunstances, and is an
-            amazing coworker.
+            <br /> I am passionate about programming, blockchain and technology
+            in general. I define myself as a very proactive person that never
+            stops learning, always in the search of improvement and growth. I'm
+            capable to work in a group and establish good relationships with my
+            partners
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
