@@ -1,7 +1,7 @@
 import React from "react";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
-import { BsInstagram } from "react-icons/bs";
+import { FiYoutube } from "react-icons/fi";
 function HeadSocials() {
   return (
     <div className="header__socials">
@@ -14,8 +14,11 @@ function HeadSocials() {
       <a href="https://github.com/emibarea" target="_blank">
         <FaGithub />
       </a>
-      <a href="https://www.instagram.com/bareaemiliano/" target="_blank">
-        <BsInstagram />
+      <a
+        href="https://www.youtube.com/channel/UCsmruGgvypq9GvmzMdUbfIg"
+        target="_blank"
+      >
+        <FiYoutube />
       </a>
     </div>
   );

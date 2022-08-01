@@ -3,6 +3,7 @@ import "./About.css";
 import Me from "../../assets/imagenEmi.jpeg";
 import Platzi from "../../assets/img3.jpg";
 import FreeCode from "../../assets/freecodecamp.png";
+import PJP from "../../assets/pjp.jpg";
 function About() {
   return (
     <section id="about">
@@ -30,6 +31,14 @@ function About() {
                 target="_blank"
               >
                 <img src={FreeCode} alt="FreeCodeCamp certification" />
+              </a>
+            </article>
+            <article className="about__card">
+              <a
+                href="https://platzi.com/p/emibarea/curso/1642-course/diploma/detalle/"
+                target="_blank"
+              >
+                <img src={PJP} alt="platzi certification" />
               </a>
             </article>
           </div>

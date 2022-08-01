@@ -5,6 +5,7 @@ import Calculadora from "../../assets/calculadora.png";
 import TICTACTOE from "../../assets/tictactoe.png";
 import Coinbase from "../../assets/coinbase.png";
 import Legos from "../../assets/legos.png";
+import Instagram from "../../assets/instagram.png";
 const data = [
   {
     name: "Netflix Clone",
@@ -35,6 +36,12 @@ const data = [
     img: Legos,
     github: "https://github.com/emibarea/LEGOS-HERO",
     demo: "https://emibarea.github.io/LEGOS-HERO/#",
+  },
+  {
+    name: "Instagram Clone",
+    img: Instagram,
+    github: "https://github.com/Ignagim/instagram-clone",
+    demo: "https://instagram-clone-emibarea.vercel.app/",
   },
 ];
 function Portfolio() {
