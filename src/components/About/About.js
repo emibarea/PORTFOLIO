@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef, useMemo } from "react";
 import "./About.css";
 import Me from "../../assets/imagenEmi.jpeg";
 import Platzi from "../../assets/img3.jpg";

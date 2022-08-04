@@ -6,12 +6,31 @@ import TICTACTOE from "../../assets/tictactoe.png";
 import Coinbase from "../../assets/coinbase.png";
 import Legos from "../../assets/legos.png";
 import Instagram from "../../assets/instagram.png";
+import gym from "../../assets/gym.png";
 const data = [
   {
     name: "Netflix Clone",
     img: Netflix,
     github: "https://github.com/emibarea/Netflix-Clone",
     demo: "https://netflix-clone-sigma-teal.vercel.app/",
+  },
+  {
+    name: "Instagram Clone",
+    img: Instagram,
+    github: "https://github.com/Ignagim/instagram-clone",
+    demo: "https://instagram-clone-emibarea.vercel.app/",
+  },
+  {
+    name: "CoinBase Clone",
+    img: Coinbase,
+    github: "https://github.com/emibarea/Coinbase-clone",
+    demo: "https://youtu.be/7oLPRUbBl_Q",
+  },
+  {
+    name: "GYM Website",
+    img: gym,
+    github: "https://github.com/emibarea/GYM-website",
+    demo: "https://gym-website-plum.vercel.app/",
   },
   {
     name: " JavaScript Calculator",
@@ -25,23 +44,12 @@ const data = [
     github: "https://github.com/emibarea/TIC-TAC-TOE",
     demo: "https://tic-tac-toe-alpha-gilt.vercel.app/",
   },
-  {
-    name: "CoinBase Clone",
-    img: Coinbase,
-    github: "https://github.com/emibarea/Coinbase-clone",
-    demo: "https://youtu.be/7oLPRUbBl_Q",
-  },
+
   {
     name: "Static Page Legos",
     img: Legos,
     github: "https://github.com/emibarea/LEGOS-HERO",
     demo: "https://emibarea.github.io/LEGOS-HERO/#",
-  },
-  {
-    name: "Instagram Clone",
-    img: Instagram,
-    github: "https://github.com/Ignagim/instagram-clone",
-    demo: "https://instagram-clone-emibarea.vercel.app/",
   },
 ];
 function Portfolio() {

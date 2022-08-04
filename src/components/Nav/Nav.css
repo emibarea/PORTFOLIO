@@ -20,9 +20,11 @@ nav a {
   display: flex;
   color: var(--color-light);
   font-size: 1.1rem;
+  transition: 0.2s ease-in;
 }
 nav a:hover {
   background-color: rgba(0, 0, 0, 0.3);
+  transform: scale(1.1);
 }
 nav a.active {
   background-color: var(--color-primary);
