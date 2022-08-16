@@ -8,6 +8,7 @@ import Legos from "../../assets/legos.png";
 import Instagram from "../../assets/instagram.png";
 import gym from "../../assets/gym.png";
 import Spotify from "../../assets/spotify.png";
+import Hoobank from "../../assets/hoobank.png";
 const data = [
   {
     name: "Netflix Clone",
@@ -38,6 +39,12 @@ const data = [
     img: gym,
     github: "https://github.com/emibarea/GYM-website",
     demo: "https://gym-website-plum.vercel.app/",
+  },
+  {
+    name: "Hoo Bank",
+    img: Hoobank,
+    github: "https://github.com/emibarea/Hoo-Bank",
+    demo: "https://hoo-bank-ochre.vercel.app/",
   },
   {
     name: "Static Page Legos",
