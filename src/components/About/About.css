@@ -42,6 +42,9 @@
   border: 1px solid transparent;
   border-radius: 1rem;
   padding: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .about__card img {
   border-radius: 1rem;

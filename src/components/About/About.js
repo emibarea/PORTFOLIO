@@ -4,6 +4,35 @@ import Me from "../../assets/imagenEmi.jpeg";
 import Platzi from "../../assets/img3.jpg";
 import FreeCode from "../../assets/freecodecamp.png";
 import PJP from "../../assets/pjp.jpg";
+import Google from "../../assets/2022-08-19 (2).png";
+import frontend from "../../assets/2022-08-19 (3).png";
+const data = [
+  {
+    img: Platzi,
+    name: "platzi certification",
+    link: "https://platzi.com/p/emibarea/ruta/6727-web/diploma/detalle/",
+  },
+  {
+    img: PJP,
+    name: "platzi javascript certification",
+    link: "https://platzi.com/p/emibarea/curso/1642-course/diploma/detalle/",
+  },
+  {
+    img: frontend,
+    name: "platzi frontend certification",
+    link: "https://platzi.com/p/emibarea/curso/2467-frontend-developer/diploma/detalle/",
+  },
+  {
+    img: FreeCode,
+    name: "free code camp certification",
+    link: "https://freecodecamp.org/certification/EmilianoBarea/responsive-web-design",
+  },
+  {
+    img: Google,
+    name: "google certification",
+    link: "https://learndigital.withgoogle.com/link/1nur091p2ww",
+  },
+];
 function About() {
   return (
     <section id="about">
@@ -17,30 +46,13 @@ function About() {
         </div>
         <div className="about__content">
           <div className="about__cards">
-            <article className="about__card">
-              <a
-                href="https://platzi.com/p/emibarea/ruta/6727-web/diploma/detalle/"
-                target="_blank"
-              >
-                <img src={Platzi} alt="platzi certification" />
-              </a>
-            </article>
-            <article className="about__card">
-              <a
-                href="https://freecodecamp.org/certification/EmilianoBarea/responsive-web-design"
-                target="_blank"
-              >
-                <img src={FreeCode} alt="FreeCodeCamp certification" />
-              </a>
-            </article>
-            <article className="about__card">
-              <a
-                href="https://platzi.com/p/emibarea/curso/1642-course/diploma/detalle/"
-                target="_blank"
-              >
-                <img src={PJP} alt="platzi certification" />
-              </a>
-            </article>
+            {data.map((certificado) => (
+              <article className="about__card">
+                <a href={certificado.link} target="_blank">
+                  <img src={certificado.img} alt={certificado.name} />
+                </a>
+              </article>
+            ))}
           </div>
           <p>
             My name is Emiliano Barea, I'm 19 years old. I currently reside in
