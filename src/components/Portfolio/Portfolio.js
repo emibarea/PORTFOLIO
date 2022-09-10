@@ -20,7 +20,7 @@ const data = [
     name: "Spotify Clone",
     img: Spotify,
     github: "https://github.com/emibarea/Spotify-Clone",
-    demo: "https://spotify-clone-five-vert.vercel.app/",
+    demo: "https://spotify-clone-emibarea.vercel.app/",
   },
   {
     name: "Instagram Clone",
