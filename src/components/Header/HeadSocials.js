@@ -1,5 +1,5 @@
 import React from "react";
-import { BsLinkedin } from "react-icons/bs";
+import { BsLinkedin, BsInstagram } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import { FiYoutube } from "react-icons/fi";
 function HeadSocials() {
@@ -19,6 +19,9 @@ function HeadSocials() {
         target="_blank"
       >
         <FiYoutube />
+      </a>
+      <a href="https://www.instagram.com/bareaemiliano/" target="_blank">
+        <BsInstagram />
       </a>
     </div>
   );

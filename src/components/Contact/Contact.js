@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import "./Contact.css";
 import { MdOutlineEmail } from "react-icons/md";
-import { BsLinkedin, BsWhatsapp } from "react-icons/bs";
+import { BsLinkedin, BsInstagram } from "react-icons/bs";
 import { BiMessageAltCheck } from "react-icons/bi";
 import emailjs from "emailjs-com";
 function Contact() {
@@ -45,14 +45,11 @@ function Contact() {
             </a>
           </article>
           <article className="contact__option">
-            <BsWhatsapp className="contact__option-icon" />
-            <h4>WhatsApp</h4>
-            <h5>+54 2613607756</h5>
-            <a
-              href="https://api.whatsapp.com/send?phone=542613607756"
-              target="_blank"
-            >
-              Send a Message
+            <BsInstagram className="contact__option-icon" />
+            <h4>instagram</h4>
+            <h5>bareaemiliano</h5>
+            <a href="https://www.instagram.com/bareaemiliano/" target="_blank">
+              Know me
             </a>
           </article>
         </div>
