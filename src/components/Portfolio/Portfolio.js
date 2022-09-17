@@ -3,7 +3,7 @@ import "./Portfolio.css";
 import Netflix from "../../assets/netflixClone.png";
 import Calculadora from "../../assets/calculadora.png";
 import TICTACTOE from "../../assets/tictactoe.png";
-import Coinbase from "../../assets/coinbase.png";
+import Youtube from "../../assets/youtube.png";
 import Legos from "../../assets/legos.png";
 import Instagram from "../../assets/instagram.png";
 import gym from "../../assets/gym.png";
@@ -23,17 +23,18 @@ const data = [
     demo: "https://spotify-clone-emibarea.vercel.app/",
   },
   {
+    name: "Youtube Clone",
+    img: Youtube,
+    github: "https://github.com/emibarea/Youtube-Clone",
+    demo: "https://youtube-clone-sigma-sable.vercel.app/",
+  },
+  {
     name: "Instagram Clone",
     img: Instagram,
     github: "https://github.com/Ignagim/instagram-clone",
     demo: "https://instagram-clone-emibarea.vercel.app/",
   },
-  {
-    name: "CoinBase Clone",
-    img: Coinbase,
-    github: "https://github.com/emibarea/Coinbase-clone",
-    demo: "https://youtu.be/7oLPRUbBl_Q",
-  },
+
   {
     name: "GYM Website",
     img: gym,

@@ -6,6 +6,7 @@ import FreeCode from "../../assets/freecodecamp.png";
 import PJP from "../../assets/pjp.jpg";
 import Google from "../../assets/2022-08-19 (2).png";
 import frontend from "../../assets/2022-08-19 (3).png";
+import argPrograma from "../../assets/argentina_programa_2022_page-0001.jpg";
 const data = [
   {
     img: Platzi,
@@ -31,6 +32,11 @@ const data = [
     img: Google,
     name: "google certification",
     link: "https://learndigital.withgoogle.com/link/1nur091p2ww",
+  },
+  {
+    img: argPrograma,
+    name: "Argentina Programa",
+    link: "https://seprogramar.inti.gob.ar/inti/certificates/verify/L45SAs5-Xw9XNbgl",
   },
 ];
 function About() {
