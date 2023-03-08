@@ -77,9 +77,9 @@ function Skills() {
         <article>
           <img
             onClick={() =>
-              selected === 0 ? setSelected(8) : setSelected(selected - 1)
+              selected === 0 ? setSelected(7) : setSelected(selected - 1)
             }
-            src={selected === 0 ? data[8].img : data[selected - 1].img}
+            src={selected === 0 ? data[7].img : data[selected - 1].img}
             alt=""
           />
         </article>
@@ -90,9 +90,9 @@ function Skills() {
         <article>
           <img
             onClick={() =>
-              selected === 8 ? setSelected(0) : setSelected(selected + 1)
+              selected === 7 ? setSelected(0) : setSelected(selected + 1)
             }
-            src={selected === 8 ? data[0].img : data[selected + 1].img}
+            src={selected === 7 ? data[0].img : data[selected + 1].img}
             alt=""
           />
         </article>
@@ -105,14 +105,14 @@ function Skills() {
           src={leftArrow}
           alt=""
           onClick={() =>
-            selected === 0 ? setSelected(8) : setSelected(selected - 1)
+            selected === 0 ? setSelected(7) : setSelected(selected - 1)
           }
         />
         <img
           src={rightArrow}
           alt=""
           onClick={() =>
-            selected === 8 ? setSelected(0) : setSelected(selected + 1)
+            selected === 7 ? setSelected(0) : setSelected(selected + 1)
           }
         />
       </div>
