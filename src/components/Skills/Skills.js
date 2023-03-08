@@ -32,10 +32,6 @@ const data = [
     name: "REACT",
   },
   {
-    img: "https://camo.githubusercontent.com/85b444e9abea566b97675ccea709209d51dbbab89e571a7ad575d706e4e0603a/68747470733a2f2f6164656c616e65676172612e6769746875622e696f2f696d672f6e6578745f6c6f676f2e706e67",
-    name: "NEXT JS",
-  },
-  {
     img: "https://portfolio-8f8ea.firebaseapp.com/static/media/github.3b9e32903aa89111875d.png",
     name: "GITHUB",
   },
@@ -44,29 +40,29 @@ function Skills() {
   const [selected, setSelected] = useState(0);
   const carruselL = () => {
     if (selected === 0) {
-      return data[7].img;
+      return data[6].img;
     } else if (selected === 1) {
-      return data[8].img;
+      return data[7].img;
     } else return data[selected - 2].img;
   };
   const carruselR = () => {
-    if (selected === 8) {
+    if (selected === 7) {
       return data[1].img;
-    } else if (selected === 7) {
+    } else if (selected === 6) {
       return data[0].img;
     } else return data[selected + 2].img;
   };
   const girarL = () => {
     if (selected === 0) {
-      setSelected(7);
+      setSelected(6);
     } else if (selected === 1) {
-      setSelected(8);
+      setSelected(7);
     } else setSelected(selected - 2);
   };
   const girarR = () => {
-    if (selected === 8) {
+    if (selected === 7) {
       setSelected(1);
-    } else if (selected === 7) {
+    } else if (selected === 6) {
       setSelected(0);
     } else setSelected(selected + 2);
   };

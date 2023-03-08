@@ -1,5 +1,5 @@
 import React from "react";
-import Cv from "../../assets/CV.png";
+import Cv from "../../assets/CV.jpg";
 function CTA() {
   return (
     <div className="cta">
