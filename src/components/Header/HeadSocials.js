@@ -6,21 +6,27 @@ function HeadSocials() {
   return (
     <div className="header__socials">
       <a
+        className="linked"
         href="https://www.linkedin.com/in/emiliano-barea-monetti-781a00231/"
         target="_blank"
       >
         <BsLinkedin />
       </a>
-      <a href="https://github.com/emibarea" target="_blank">
+      <a className="github" href="https://github.com/emibarea" target="_blank">
         <FaGithub />
       </a>
       <a
+        className="yutu"
         href="https://www.youtube.com/channel/UCsmruGgvypq9GvmzMdUbfIg"
         target="_blank"
       >
         <FiYoutube />
       </a>
-      <a href="https://www.instagram.com/bareaemiliano/" target="_blank">
+      <a
+        className="insta"
+        href="https://www.instagram.com/bareaemiliano/"
+        target="_blank"
+      >
         <BsInstagram />
       </a>
     </div>

@@ -84,7 +84,7 @@ function Skills() {
           />
         </article>
         <article>
-          <img src={data[selected].img} alt="" />
+          <img className="img-medio" src={data[selected].img} alt="" />
           <span>{data[selected].name}</span>
         </article>
         <article>

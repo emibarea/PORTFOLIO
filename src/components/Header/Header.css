@@ -23,6 +23,29 @@ header {
   left: 0;
   bottom: 3rem;
 }
+.linked {
+  animation: socials 2.5s ease-in;
+}
+.github {
+  animation: socials 2s ease-in;
+}
+.yutu {
+  animation: socials 1.5s ease-in;
+}
+.insta {
+  animation: socials 1s ease-in;
+}
+@keyframes socials {
+  0% {
+    transform: translateY(-90vh);
+  }
+  95% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 .header__socials a:hover {
   transform: scale(1.2);
   transition: var(--transition);
@@ -45,15 +68,35 @@ header {
   justify-content: center;
   align-items: flex-end;
 }
+.foto {
+  transition: 1s ease-in-out;
+}
+.foto:hover {
+  transform: translateY(-20px) scale(1.1);
+}
 
 .scroll__down {
+  transform: rotate(90deg);
   position: absolute;
   right: -2.3rem;
   bottom: 5rem;
-  transform: rotate(90deg);
   font-weight: 300;
   font-size: 0.9rem;
 }
+.scroll__down:hover {
+  animation: animation-scroll 1s infinite ease-out;
+}
+@keyframes animation-scroll {
+  0% {
+  }
+  50% {
+    transform: translateY(-20px) rotate(90deg);
+  }
+  100% {
+    transform: translateY(0) rotate(90deg);
+  }
+}
+
 @media screen and (max-width: 1024px) {
   header {
     padding-top: 1rem;
