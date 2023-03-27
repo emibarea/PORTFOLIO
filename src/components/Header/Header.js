@@ -6,7 +6,7 @@ import HeadSocials from "./HeadSocials";
 import { motion } from "framer-motion";
 function Header() {
   return (
-    <header>
+    <section className="header" id="header">
       <div className="container header__container">
         <h5>Hello I'm</h5>
         <motion.div
@@ -28,7 +28,7 @@ function Header() {
           Scroll Down
         </a>
       </div>
-    </header>
+    </section>
   );
 }
 

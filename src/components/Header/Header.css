@@ -1,7 +1,8 @@
-header {
+.header {
   min-height: 100vh;
   height: auto;
   padding-top: 7rem;
+  margin-top: 0;
 }
 .header__container {
   text-align: center;
@@ -72,7 +73,7 @@ header {
   transition: 1s ease-in-out;
 }
 .foto:hover {
-  transform: translateY(-20px) scale(1.1);
+  transform: translateY(-20px) scale(1.05);
 }
 
 .scroll__down {
