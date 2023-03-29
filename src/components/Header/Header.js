@@ -14,7 +14,7 @@ function Header() {
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 1.5, delay: 1 }}
         >
-          <h1 data-aos="zoom-out-down">Emiliano Barea Monetti</h1>
+          <h1 data-aos="zoom-out-down">Emiliano Barea</h1>
         </motion.div>
         <h5 className="text-light">Frontend Developer</h5>
         <CTA />
